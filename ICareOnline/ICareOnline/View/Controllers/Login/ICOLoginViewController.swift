@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ICOLoginViewController.swift
 //  ICareOnline
 //
 //  Created by AMBIN05646 on 01/07/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ICOLoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
