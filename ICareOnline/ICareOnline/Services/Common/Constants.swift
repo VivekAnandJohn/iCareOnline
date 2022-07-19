@@ -7,11 +7,14 @@
 
 import Foundation
 
-struct ICOScreen {
-    static let Launch = "ICOLaunchViewController"
-    static let Login = "ICOLoginViewController"
+enum AppControllers: String {
+    case ICOLaunchViewController, ICOLoginViewController, BubbleTabBarController
 }
 
-struct Segue {
-    static let IDWelcomeToLogin = "IDWelcomeToLogin"
+enum Segue: String {
+    case IDWelcomeToLogin
+}
+
+enum AppStoryboards: String {
+    case Main, TabScreens
 }

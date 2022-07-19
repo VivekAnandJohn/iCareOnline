@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7IN-Eh-8pE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gej-o6-0oa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -226,6 +226,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0s-cT-Np6" userLabel="SignUp BG View">
                                 <rect key="frame" x="204" y="54" width="180" height="52"/>
                                 <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward.end" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RP3-Df-1XY">
+                                        <rect key="frame" x="163" y="2" width="17" height="48"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agC-2N-UbU">
                                         <rect key="frame" x="0.0" y="0.0" width="158" height="52"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -240,11 +244,10 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnContinueAsGuest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeG-rU-L6g"/>
+                                        </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward.end" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RP3-Df-1XY">
-                                        <rect key="frame" x="163" y="2" width="17" height="48"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -296,7 +299,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="110"/>
+            <point key="canvasLocation" x="226" y="110"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6DO-aG-il2">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpx-iD-Jz0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController navigationBarHidden="YES" id="Gej-o6-0oa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="thn-eH-RE8">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7IN-Eh-8pE" kind="relationship" relationship="rootViewController" id="Aph-lh-Auj"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1642" y="110"/>
         </scene>
         <!--Launch View Controller-->
         <scene sceneID="lGW-Cb-AvA">
@@ -339,6 +357,7 @@
                             <constraint firstItem="uTd-3P-jLV" firstAttribute="trailing" secondItem="cGt-e8-SJP" secondAttribute="trailing" id="zHt-JC-UCJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Csz-x1-F7z"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="IDWelcomeToLogin" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="ZaM-pH-EnX"/>
                     </connections>

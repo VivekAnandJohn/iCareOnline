@@ -17,6 +17,6 @@ class ICOLaunchViewController: UIViewController {
     }
 
     @objc func checkForNavigation() {
-        self.performSegue(withIdentifier: Segue.IDWelcomeToLogin, sender: self)
+        self.performSegue(withIdentifier: Segue.IDWelcomeToLogin.rawValue, sender: self)
     }
 }
