@@ -16,5 +16,5 @@ enum Segue: String {
 }
 
 enum AppStoryboards: String {
-    case Main, TabScreens
+    case Main, TabScreens,Medicine
 }

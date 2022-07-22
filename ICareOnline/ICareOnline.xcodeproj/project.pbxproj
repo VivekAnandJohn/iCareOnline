@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		08E5F91F77D8E9C046DCEE6C /* Pods_ICareOnline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A42A4436F5F1203044DA9B /* Pods_ICareOnline.framework */; };
 		2445B021438191D11122CF48 /* Pods_ICareOnline_ICareOnlineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0A0221983FD35CBC939DB9 /* Pods_ICareOnline_ICareOnlineUITests.framework */; };
+		430832872887C46C00815BF3 /* Medicine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430832862887C46C00815BF3 /* Medicine.storyboard */; };
+		438222FB288A734C009B7523 /* ICOLabReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438222FA288A734C009B7523 /* ICOLabReportViewController.swift */; };
+		43CA04DF28899FAD000EE605 /* ICOMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */; };
+		43DA276F2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA276E2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift */; };
+		43DA277228887BC400CA8BB9 /* ICOPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */; };
 		468E2F97286F4F7B00AF6F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F96286F4F7B00AF6F02 /* AppDelegate.swift */; };
 		468E2F99286F4F7B00AF6F02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F98286F4F7B00AF6F02 /* SceneDelegate.swift */; };
 		468E2F9E286F4F7B00AF6F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468E2F9C286F4F7B00AF6F02 /* Main.storyboard */; };
@@ -54,6 +59,11 @@
 		0445E9DB1A22B8410F4DCABD /* Pods-ICareOnlineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICareOnlineTests.debug.xcconfig"; path = "Target Support Files/Pods-ICareOnlineTests/Pods-ICareOnlineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C5B7A9825C41DF2623B390A /* Pods-ICareOnline-ICareOnlineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICareOnline-ICareOnlineUITests.debug.xcconfig"; path = "Target Support Files/Pods-ICareOnline-ICareOnlineUITests/Pods-ICareOnline-ICareOnlineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4239FAE87A58326F5F72C604 /* Pods-ICareOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICareOnline.debug.xcconfig"; path = "Target Support Files/Pods-ICareOnline/Pods-ICareOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		430832862887C46C00815BF3 /* Medicine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Medicine.storyboard; sourceTree = "<group>"; };
+		438222FA288A734C009B7523 /* ICOLabReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOLabReportViewController.swift; sourceTree = "<group>"; };
+		43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOMedicineViewController.swift; sourceTree = "<group>"; };
+		43DA276E2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOPrescriptionListViewController.swift; sourceTree = "<group>"; };
+		43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOPrescriptionViewController.swift; sourceTree = "<group>"; };
 		468E2F93286F4F7B00AF6F02 /* ICareOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICareOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F96286F4F7B00AF6F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468E2F98286F4F7B00AF6F02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +125,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		438222F9288A71A3009B7523 /* Lab Report */ = {
+			isa = PBXGroup;
+			children = (
+				438222FA288A734C009B7523 /* ICOLabReportViewController.swift */,
+			);
+			path = "Lab Report";
+			sourceTree = "<group>";
+		};
+		43DA276D2887C6CB00CA8BB9 /* Prescription */ = {
+			isa = PBXGroup;
+			children = (
+				43DA276E2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift */,
+				43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */,
+				43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */,
+			);
+			path = Prescription;
+			sourceTree = "<group>";
+		};
 		468E2F8A286F4F7B00AF6F02 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +221,7 @@
 				468E2F9C286F4F7B00AF6F02 /* Main.storyboard */,
 				4697403B2885E91600D29E62 /* TabScreens.storyboard */,
 				468E2FA1286F4F7C00AF6F02 /* LaunchScreen.storyboard */,
+				430832862887C46C00815BF3 /* Medicine.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -200,6 +229,8 @@
 		46921CD62877B1A9003FF63B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				438222F9288A71A3009B7523 /* Lab Report */,
+				43DA276D2887C6CB00CA8BB9 /* Prescription */,
 				4697405028860C7600D29E62 /* Settings */,
 				4697404D28860C5900D29E62 /* Notification */,
 				4697404A28860C2400D29E62 /* Profile */,
@@ -431,6 +462,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430832872887C46C00815BF3 /* Medicine.storyboard in Resources */,
 				468E2FA3286F4F7C00AF6F02 /* LaunchScreen.storyboard in Resources */,
 				468E2FA0286F4F7C00AF6F02 /* Assets.xcassets in Resources */,
 				4697403C2885E91600D29E62 /* TabScreens.storyboard in Resources */,
@@ -549,11 +581,15 @@
 				4697404C28860C5400D29E62 /* ICOProfileViewController.swift in Sources */,
 				469740392885A97700D29E62 /* BubbleTabBarController.swift in Sources */,
 				46921CDF2877B46A003FF63B /* Constants.swift in Sources */,
+				43DA276F2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift in Sources */,
 				46921CDA2877B251003FF63B /* ICOLoginViewController.swift in Sources */,
 				4697403A2885A97700D29E62 /* CBTabBarButton.swift in Sources */,
 				4697403E2885EAB900D29E62 /* ICOAppStoryboards.swift in Sources */,
 				46921CDC2877B288003FF63B /* ICOLaunchViewController.swift in Sources */,
 				4697403028859BA300D29E62 /* ICOHomeViewController.swift in Sources */,
+				438222FB288A734C009B7523 /* ICOLabReportViewController.swift in Sources */,
+				43CA04DF28899FAD000EE605 /* ICOMedicineViewController.swift in Sources */,
+				43DA277228887BC400CA8BB9 /* ICOPrescriptionViewController.swift in Sources */,
 				4697404F28860C7100D29E62 /* ICONotificationViewController.swift in Sources */,
 				4697405228860C8F00D29E62 /* ICOMenuViewController.swift in Sources */,
 				469740382885A97700D29E62 /* BubbleTabBar.swift in Sources */,
@@ -736,6 +772,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICareOnline/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -743,6 +780,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -764,6 +802,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICareOnline/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -771,6 +810,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -792,6 +832,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -812,6 +853,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
@@ -831,6 +873,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ICareOnlineUITests;
@@ -849,6 +892,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9HVSB8L9B;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ICareOnlineUITests;

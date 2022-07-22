@@ -12,7 +12,7 @@ class ICOMenuViewController: UIViewController,UITableViewDataSource,UITableViewD
     @IBOutlet weak var menuTableView: UITableView!
     let cellReuseIdentifier = "MenuCell"
 
-    let menuList = [("Info"),("Settings"),("About Us"),("Tutorial")]
+    let menuList = [("Info"),("Settings"),("About Us"),("Tutorial"),("Prescription")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +44,33 @@ class ICOMenuViewController: UIViewController,UITableViewDataSource,UITableViewD
 
     return cell
 
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        switch indexPath.row{
+        case 0:
+            print("Invalid Option")
+        case 1:
+            print("Invalid Option")
+        case 2:
+            print("Invalid Option")
+        case 3:
+            print("Invalid Option")
+        case 4:
+            navigatePrescription()
+
+        default:
+            print("Invalid Option")
+        }
+
+
+       }
+    func navigatePrescription()
+    {
+        let storyBoard : UIStoryboard = UIStoryboard(name: AppStoryboards.Medicine.rawValue, bundle:nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "ICOPrescriptionListViewController")
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
