@@ -12,7 +12,7 @@ class ICOMenuViewController: UIViewController,UITableViewDataSource,UITableViewD
     @IBOutlet weak var menuTableView: UITableView!
     let cellReuseIdentifier = "MenuCell"
 
-    let menuList = [("Info"),("Settings"),("About Us"),("Tutorial"),("Prescription")]
+    let menuList = [("Info"),("Settings"),("About Us"),("Tutorial"),("Prescription"), ("Hospital Registration")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +59,8 @@ class ICOMenuViewController: UIViewController,UITableViewDataSource,UITableViewD
             print("Invalid Option")
         case 4:
             navigatePrescription()
+        case 5:
+            navigateToHospitalRegistration()
 
         default:
             print("Invalid Option")
@@ -66,6 +68,16 @@ class ICOMenuViewController: UIViewController,UITableViewDataSource,UITableViewD
 
 
        }
+    
+    
+    func navigateToHospitalRegistration()
+    {
+        let vc = UIStoryboard.init(name: "HospitalRegistration", bundle: Bundle.main).instantiateViewController(withIdentifier: "HospitalRegistrationTableViewController") as? HospitalRegistrationTableViewController
+        navigationController?.pushViewController(vc!, animated: true)
+    }
+
+
+    
     func navigatePrescription()
     {
         let storyBoard : UIStoryboard = UIStoryboard(name: AppStoryboards.Medicine.rawValue, bundle:nil)

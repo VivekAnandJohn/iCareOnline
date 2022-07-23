@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08E5F91F77D8E9C046DCEE6C /* Pods_ICareOnline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A42A4436F5F1203044DA9B /* Pods_ICareOnline.framework */; };
 		2445B021438191D11122CF48 /* Pods_ICareOnline_ICareOnlineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0A0221983FD35CBC939DB9 /* Pods_ICareOnline_ICareOnlineUITests.framework */; };
 		430832872887C46C00815BF3 /* Medicine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430832862887C46C00815BF3 /* Medicine.storyboard */; };
 		438222FB288A734C009B7523 /* ICOLabReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438222FA288A734C009B7523 /* ICOLabReportViewController.swift */; };
 		43CA04DF28899FAD000EE605 /* ICOMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */; };
-		43DA276F2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA276E2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift */; };
 		43DA277228887BC400CA8BB9 /* ICOPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */; };
 		468E2F97286F4F7B00AF6F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F96286F4F7B00AF6F02 /* AppDelegate.swift */; };
 		468E2F99286F4F7B00AF6F02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F98286F4F7B00AF6F02 /* SceneDelegate.swift */; };
@@ -35,6 +33,14 @@
 		4697404C28860C5400D29E62 /* ICOProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697404B28860C5400D29E62 /* ICOProfileViewController.swift */; };
 		4697404F28860C7100D29E62 /* ICONotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697404E28860C7100D29E62 /* ICONotificationViewController.swift */; };
 		4697405228860C8F00D29E62 /* ICOMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697405128860C8F00D29E62 /* ICOMenuViewController.swift */; };
+		76BFE327288BDF47000100D8 /* HospitalRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BFE326288BDF47000100D8 /* HospitalRegistration.storyboard */; };
+		76BFE333288BE11B000100D8 /* HospitalRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE32C288BE11B000100D8 /* HospitalRegistrationTableViewController.swift */; };
+		76BFE334288BE11B000100D8 /* HRCustomeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE32D288BE11B000100D8 /* HRCustomeCellTableViewCell.swift */; };
+		76BFE335288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFE32E288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.xib */; };
+		76BFE336288BE11B000100D8 /* PickerPresentator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE32F288BE11B000100D8 /* PickerPresentator.swift */; };
+		76BFE337288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE330288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift */; };
+		76BFE338288BE11B000100D8 /* HRCustomeCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFE331288BE11B000100D8 /* HRCustomeCellTableViewCell.xib */; };
+		76BFE339288BE11B000100D8 /* MandatoryFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE332288BE11B000100D8 /* MandatoryFormViewController.swift */; };
 		BA707C4792ACD7E387B0E1AD /* Pods_ICareOnlineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1C4B4D1BAAFFA7DB6F7080 /* Pods_ICareOnlineTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +96,14 @@
 		4697404E28860C7100D29E62 /* ICONotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICONotificationViewController.swift; sourceTree = "<group>"; };
 		4697405128860C8F00D29E62 /* ICOMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOMenuViewController.swift; sourceTree = "<group>"; };
 		5B0A0221983FD35CBC939DB9 /* Pods_ICareOnline_ICareOnlineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICareOnline_ICareOnlineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BFE326288BDF47000100D8 /* HospitalRegistration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HospitalRegistration.storyboard; sourceTree = "<group>"; };
+		76BFE32C288BE11B000100D8 /* HospitalRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		76BFE32D288BE11B000100D8 /* HRCustomeCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRCustomeCellTableViewCell.swift; sourceTree = "<group>"; };
+		76BFE32E288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxtableViewCellTableViewCell.xib; sourceTree = "<group>"; };
+		76BFE32F288BE11B000100D8 /* PickerPresentator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPresentator.swift; sourceTree = "<group>"; };
+		76BFE330288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxtableViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		76BFE331288BE11B000100D8 /* HRCustomeCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRCustomeCellTableViewCell.xib; sourceTree = "<group>"; };
+		76BFE332288BE11B000100D8 /* MandatoryFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandatoryFormViewController.swift; sourceTree = "<group>"; };
 		98A42A4436F5F1203044DA9B /* Pods_ICareOnline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICareOnline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D209608BDDBADAECF35DDA /* Pods-ICareOnline-ICareOnlineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICareOnline-ICareOnlineUITests.release.xcconfig"; path = "Target Support Files/Pods-ICareOnline-ICareOnlineUITests/Pods-ICareOnline-ICareOnlineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B8A76B85B9E4A83D0D0AD643 /* Pods-ICareOnlineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICareOnlineTests.release.xcconfig"; path = "Target Support Files/Pods-ICareOnlineTests/Pods-ICareOnlineTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08E5F91F77D8E9C046DCEE6C /* Pods_ICareOnline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +231,7 @@
 		46921CD52877B19C003FF63B /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				76BFE326288BDF47000100D8 /* HospitalRegistration.storyboard */,
 				468E2F9C286F4F7B00AF6F02 /* Main.storyboard */,
 				4697403B2885E91600D29E62 /* TabScreens.storyboard */,
 				468E2FA1286F4F7C00AF6F02 /* LaunchScreen.storyboard */,
@@ -229,6 +243,7 @@
 		46921CD62877B1A9003FF63B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				76BFE32B288BE11B000100D8 /* Hospital Registration */,
 				438222F9288A71A3009B7523 /* Lab Report */,
 				43DA276D2887C6CB00CA8BB9 /* Prescription */,
 				4697405028860C7600D29E62 /* Settings */,
@@ -339,6 +354,20 @@
 				FE1C4B4D1BAAFFA7DB6F7080 /* Pods_ICareOnlineTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76BFE32B288BE11B000100D8 /* Hospital Registration */ = {
+			isa = PBXGroup;
+			children = (
+				76BFE32C288BE11B000100D8 /* HospitalRegistrationTableViewController.swift */,
+				76BFE32D288BE11B000100D8 /* HRCustomeCellTableViewCell.swift */,
+				76BFE32E288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.xib */,
+				76BFE32F288BE11B000100D8 /* PickerPresentator.swift */,
+				76BFE330288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift */,
+				76BFE331288BE11B000100D8 /* HRCustomeCellTableViewCell.xib */,
+				76BFE332288BE11B000100D8 /* MandatoryFormViewController.swift */,
+			);
+			path = "Hospital Registration";
 			sourceTree = "<group>";
 		};
 		AED85C71607DD12C969A5897 /* Pods */ = {
@@ -463,9 +492,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				430832872887C46C00815BF3 /* Medicine.storyboard in Resources */,
+				76BFE327288BDF47000100D8 /* HospitalRegistration.storyboard in Resources */,
 				468E2FA3286F4F7C00AF6F02 /* LaunchScreen.storyboard in Resources */,
 				468E2FA0286F4F7C00AF6F02 /* Assets.xcassets in Resources */,
+				76BFE338288BE11B000100D8 /* HRCustomeCellTableViewCell.xib in Resources */,
 				4697403C2885E91600D29E62 /* TabScreens.storyboard in Resources */,
+				76BFE335288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.xib in Resources */,
 				468E2F9E286F4F7B00AF6F02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,11 +609,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BFE339288BE11B000100D8 /* MandatoryFormViewController.swift in Sources */,
 				469740332885A86E00D29E62 /* ICOTabController.swift in Sources */,
+				76BFE337288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift in Sources */,
 				4697404C28860C5400D29E62 /* ICOProfileViewController.swift in Sources */,
 				469740392885A97700D29E62 /* BubbleTabBarController.swift in Sources */,
 				46921CDF2877B46A003FF63B /* Constants.swift in Sources */,
-				43DA276F2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift in Sources */,
 				46921CDA2877B251003FF63B /* ICOLoginViewController.swift in Sources */,
 				4697403A2885A97700D29E62 /* CBTabBarButton.swift in Sources */,
 				4697403E2885EAB900D29E62 /* ICOAppStoryboards.swift in Sources */,
@@ -593,8 +626,11 @@
 				4697404F28860C7100D29E62 /* ICONotificationViewController.swift in Sources */,
 				4697405228860C8F00D29E62 /* ICOMenuViewController.swift in Sources */,
 				469740382885A97700D29E62 /* BubbleTabBar.swift in Sources */,
+				76BFE334288BE11B000100D8 /* HRCustomeCellTableViewCell.swift in Sources */,
 				468E2F97286F4F7B00AF6F02 /* AppDelegate.swift in Sources */,
+				76BFE333288BE11B000100D8 /* HospitalRegistrationTableViewController.swift in Sources */,
 				468E2F99286F4F7B00AF6F02 /* SceneDelegate.swift in Sources */,
+				76BFE336288BE11B000100D8 /* PickerPresentator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,7 +736,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -754,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -770,9 +806,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D9HVSB8L9B;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICareOnline/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -780,14 +816,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ICareOnline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -800,9 +838,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D9HVSB8L9B;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ICareOnline/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -810,14 +848,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ICareOnline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
