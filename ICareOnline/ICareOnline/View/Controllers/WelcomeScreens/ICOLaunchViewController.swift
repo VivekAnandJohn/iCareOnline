@@ -13,7 +13,7 @@ class ICOLaunchViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        self.perform(#selector(self.checkForNavigation), with: nil, afterDelay: 0)
+        self.perform(#selector(self.checkForNavigation), with: nil, afterDelay: 1)
     }
 
     @objc func checkForNavigation() {
