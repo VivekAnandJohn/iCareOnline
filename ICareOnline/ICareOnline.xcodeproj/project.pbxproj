@@ -12,6 +12,10 @@
 		438222FB288A734C009B7523 /* ICOLabReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438222FA288A734C009B7523 /* ICOLabReportViewController.swift */; };
 		43CA04DF28899FAD000EE605 /* ICOMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */; };
 		43DA277228887BC400CA8BB9 /* ICOPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */; };
+		460AAA26288880D900C8B562 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460AAA25288880D900C8B562 /* Extension+UIViewController.swift */; };
+		467A00D6288ADC56007FA4AD /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A00D5288ADC56007FA4AD /* Extension+UIImage.swift */; };
+		467A00D8288ADF85007FA4AD /* ICOOfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A00D7288ADF85007FA4AD /* ICOOfferCell.swift */; };
+		467A00DA288AFA21007FA4AD /* ICODoctorsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A00D9288AFA21007FA4AD /* ICODoctorsListCell.swift */; };
 		468E2F97286F4F7B00AF6F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F96286F4F7B00AF6F02 /* AppDelegate.swift */; };
 		468E2F99286F4F7B00AF6F02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F98286F4F7B00AF6F02 /* SceneDelegate.swift */; };
 		468E2F9E286F4F7B00AF6F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468E2F9C286F4F7B00AF6F02 /* Main.storyboard */; };
@@ -41,6 +45,8 @@
 		76BFE337288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE330288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift */; };
 		76BFE338288BE11B000100D8 /* HRCustomeCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BFE331288BE11B000100D8 /* HRCustomeCellTableViewCell.xib */; };
 		76BFE339288BE11B000100D8 /* MandatoryFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFE332288BE11B000100D8 /* MandatoryFormViewController.swift */; };
+		46B12790288C56C70041D278 /* ICOHospitalsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1278F288C56C70041D278 /* ICOHospitalsListCell.swift */; };
+		46B12792288EADC30041D278 /* ICOSearchCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B12791288EADC30041D278 /* ICOSearchCategoryCell.swift */; };
 		BA707C4792ACD7E387B0E1AD /* Pods_ICareOnlineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1C4B4D1BAAFFA7DB6F7080 /* Pods_ICareOnlineTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +76,10 @@
 		43CA04DE28899FAD000EE605 /* ICOMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOMedicineViewController.swift; sourceTree = "<group>"; };
 		43DA276E2887C91A00CA8BB9 /* ICOPrescriptionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOPrescriptionListViewController.swift; sourceTree = "<group>"; };
 		43DA277128887BC400CA8BB9 /* ICOPrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOPrescriptionViewController.swift; sourceTree = "<group>"; };
+		460AAA25288880D900C8B562 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		467A00D5288ADC56007FA4AD /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		467A00D7288ADF85007FA4AD /* ICOOfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOOfferCell.swift; sourceTree = "<group>"; };
+		467A00D9288AFA21007FA4AD /* ICODoctorsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICODoctorsListCell.swift; sourceTree = "<group>"; };
 		468E2F93286F4F7B00AF6F02 /* ICareOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICareOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F96286F4F7B00AF6F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468E2F98286F4F7B00AF6F02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +105,8 @@
 		4697404B28860C5400D29E62 /* ICOProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOProfileViewController.swift; sourceTree = "<group>"; };
 		4697404E28860C7100D29E62 /* ICONotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICONotificationViewController.swift; sourceTree = "<group>"; };
 		4697405128860C8F00D29E62 /* ICOMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOMenuViewController.swift; sourceTree = "<group>"; };
+		46B1278F288C56C70041D278 /* ICOHospitalsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOHospitalsListCell.swift; sourceTree = "<group>"; };
+		46B12791288EADC30041D278 /* ICOSearchCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICOSearchCategoryCell.swift; sourceTree = "<group>"; };
 		5B0A0221983FD35CBC939DB9 /* Pods_ICareOnline_ICareOnlineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICareOnline_ICareOnlineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BFE326288BDF47000100D8 /* HospitalRegistration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HospitalRegistration.storyboard; sourceTree = "<group>"; };
 		76BFE32C288BE11B000100D8 /* HospitalRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalRegistrationTableViewController.swift; sourceTree = "<group>"; };
@@ -292,6 +304,8 @@
 		4697402D2885966200D29E62 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				460AAA25288880D900C8B562 /* Extension+UIViewController.swift */,
+				467A00D5288ADC56007FA4AD /* Extension+UIImage.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -300,6 +314,10 @@
 			isa = PBXGroup;
 			children = (
 				4697402F28859BA300D29E62 /* ICOHomeViewController.swift */,
+				467A00D7288ADF85007FA4AD /* ICOOfferCell.swift */,
+				467A00D9288AFA21007FA4AD /* ICODoctorsListCell.swift */,
+				46B1278F288C56C70041D278 /* ICOHospitalsListCell.swift */,
+				46B12791288EADC30041D278 /* ICOSearchCategoryCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -610,6 +628,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BFE339288BE11B000100D8 /* MandatoryFormViewController.swift in Sources */,
+				46B12790288C56C70041D278 /* ICOHospitalsListCell.swift in Sources */,
+				467A00DA288AFA21007FA4AD /* ICODoctorsListCell.swift in Sources */,
 				469740332885A86E00D29E62 /* ICOTabController.swift in Sources */,
 				76BFE337288BE11B000100D8 /* CheckBoxtableViewCellTableViewCell.swift in Sources */,
 				4697404C28860C5400D29E62 /* ICOProfileViewController.swift in Sources */,
@@ -618,15 +638,19 @@
 				46921CDA2877B251003FF63B /* ICOLoginViewController.swift in Sources */,
 				4697403A2885A97700D29E62 /* CBTabBarButton.swift in Sources */,
 				4697403E2885EAB900D29E62 /* ICOAppStoryboards.swift in Sources */,
+				46B12792288EADC30041D278 /* ICOSearchCategoryCell.swift in Sources */,
 				46921CDC2877B288003FF63B /* ICOLaunchViewController.swift in Sources */,
+				460AAA26288880D900C8B562 /* Extension+UIViewController.swift in Sources */,
 				4697403028859BA300D29E62 /* ICOHomeViewController.swift in Sources */,
 				438222FB288A734C009B7523 /* ICOLabReportViewController.swift in Sources */,
 				43CA04DF28899FAD000EE605 /* ICOMedicineViewController.swift in Sources */,
 				43DA277228887BC400CA8BB9 /* ICOPrescriptionViewController.swift in Sources */,
+				467A00D6288ADC56007FA4AD /* Extension+UIImage.swift in Sources */,
 				4697404F28860C7100D29E62 /* ICONotificationViewController.swift in Sources */,
 				4697405228860C8F00D29E62 /* ICOMenuViewController.swift in Sources */,
 				469740382885A97700D29E62 /* BubbleTabBar.swift in Sources */,
 				76BFE334288BE11B000100D8 /* HRCustomeCellTableViewCell.swift in Sources */,
+				467A00D8288ADF85007FA4AD /* ICOOfferCell.swift in Sources */,
 				468E2F97286F4F7B00AF6F02 /* AppDelegate.swift in Sources */,
 				76BFE333288BE11B000100D8 /* HospitalRegistrationTableViewController.swift in Sources */,
 				468E2F99286F4F7B00AF6F02 /* SceneDelegate.swift in Sources */,

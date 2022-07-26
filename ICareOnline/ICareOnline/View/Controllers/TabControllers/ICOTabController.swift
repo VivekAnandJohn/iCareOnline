@@ -36,22 +36,4 @@ class ICOTabController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return view.backgroundColor == UIColor.white ? .default : .lightContent
     }
-    
-    // MARK: - ENSideMenu Delegate
-    func sideMenuShouldOpenSideMenu() -> Bool {
-        // side menu should open side menu
-        return true
-    }
-    func sideMenuWillOpen() {
-        // sideMenuWillOpen
-    }
-    func sideMenuWillClose() {
-        // sideMenuWillClose
-    }
-    func sideMenuDidClose() {
-        // sideMenuDidClose
-    }
-    func sideMenuDidOpen() {
-        // sideMenuDidOpen
-    }
 }
