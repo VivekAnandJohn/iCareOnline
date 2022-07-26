@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ICOHomeViewController: UIViewController {
+class ICOHomeViewController: UIViewController, HomeViewControllerDelegate {
 
     let offerReuseIdentifier = "OfferCell"
     let doctorReuseIdentifier = "ICODoctorsListCell"
@@ -44,6 +44,16 @@ class ICOHomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func doctorDetailSelected(for index: Int, type: HomeControllerType) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let controller = storyboard.instantiateViewController(withIdentifier: "ICODetailViewController") as? ICODetailViewController else {
+            return
+        }
+        controller.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
 extension ICOHomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -64,6 +74,7 @@ extension ICOHomeViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         } else if indexPath.row == 1 {
             let cell: ICODoctorsListCell = self.homeTableView.dequeueReusableCell(withIdentifier: doctorReuseIdentifier) as! ICODoctorsListCell
+            cell.delegate = self
             return cell
         } else if indexPath.row == 2 {
             let cell: ICOHospitalsListCell = self.homeTableView.dequeueReusableCell(withIdentifier: hospitalReuseIdentifier) as! ICOHospitalsListCell

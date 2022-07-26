@@ -19,6 +19,10 @@ enum AppStoryboards: String {
     case Main, TabScreens,Medicine
 }
 
+enum HomeControllerType: String {
+    case Doctor, Hospital, Category
+}
+
 struct StaticText {
     
     static let Doc1 = """

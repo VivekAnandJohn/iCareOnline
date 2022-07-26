@@ -7,7 +7,14 @@
 
 import UIKit
 
+protocol HomeViewControllerDelegate
+{
+    func doctorDetailSelected(for index:Int, type: HomeControllerType)
+}
+
 class ICODoctorsListCell: UITableViewCell {
+    
+    var delegate:HomeViewControllerDelegate?
     
     let doctorReuseIdentifier = "ICODoctorDisplayCell"
     let doctorsArray = [("Dr. Priyanshi Avanija"),("Dr. Thomas Douglass"),("Dr. Jacqueline Lazarus")]
@@ -62,6 +69,10 @@ extension ICODoctorsListCell: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
 
         return 60
+    }
+    
+    private func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.delegate?.doctorDetailSelected(for: indexPath.row, type: .Doctor)
     }
 }
     
