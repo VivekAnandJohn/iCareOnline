@@ -227,10 +227,10 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVo-VQ-ZAG" userLabel="Forgot Password View">
-                                <rect key="frame" x="184" y="635" width="200" height="50"/>
+                                <rect key="frame" x="234" y="635" width="150" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TL-YK-4mY">
-                                        <rect key="frame" x="20" y="20" width="160" height="10"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="49"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Forgot Password?">
@@ -238,7 +238,7 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIv-qo-QSR">
-                                        <rect key="frame" x="0.0" y="49" width="200" height="1"/>
+                                        <rect key="frame" x="0.0" y="49" width="150" height="1"/>
                                         <color key="backgroundColor" red="0.3566792905330658" green="0.4865494966506958" blue="0.79995501041412354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="wAP-7W-8b7"/>
@@ -250,13 +250,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="2TL-YK-4mY" firstAttribute="top" secondItem="UVo-VQ-ZAG" secondAttribute="top" constant="20" symbolic="YES" id="7Ge-GP-gPN"/>
-                                    <constraint firstAttribute="width" constant="200" id="J6A-oc-Iff"/>
+                                    <constraint firstItem="bIv-qo-QSR" firstAttribute="top" secondItem="2TL-YK-4mY" secondAttribute="bottom" id="2r9-xg-Gqt"/>
+                                    <constraint firstItem="2TL-YK-4mY" firstAttribute="top" secondItem="UVo-VQ-ZAG" secondAttribute="top" id="3Lp-iq-KLH"/>
+                                    <constraint firstAttribute="trailing" secondItem="2TL-YK-4mY" secondAttribute="trailing" id="68s-77-c2E"/>
+                                    <constraint firstItem="2TL-YK-4mY" firstAttribute="leading" secondItem="UVo-VQ-ZAG" secondAttribute="leading" id="84k-Se-Q8n"/>
+                                    <constraint firstAttribute="width" constant="150" id="J6A-oc-Iff"/>
                                     <constraint firstItem="bIv-qo-QSR" firstAttribute="leading" secondItem="UVo-VQ-ZAG" secondAttribute="leading" id="JRT-3W-QSr"/>
-                                    <constraint firstAttribute="trailing" secondItem="2TL-YK-4mY" secondAttribute="trailing" constant="20" symbolic="YES" id="Og1-uH-Wjj"/>
                                     <constraint firstAttribute="trailing" secondItem="bIv-qo-QSR" secondAttribute="trailing" id="fCO-d1-NOg"/>
-                                    <constraint firstItem="2TL-YK-4mY" firstAttribute="leading" secondItem="UVo-VQ-ZAG" secondAttribute="leading" constant="20" symbolic="YES" id="fMC-ae-O1t"/>
-                                    <constraint firstAttribute="bottom" secondItem="2TL-YK-4mY" secondAttribute="bottom" constant="20" symbolic="YES" id="lb1-sI-M7j"/>
                                     <constraint firstAttribute="bottom" secondItem="bIv-qo-QSR" secondAttribute="bottom" id="x77-EZ-TCM"/>
                                 </constraints>
                             </view>

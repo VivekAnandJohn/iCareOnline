@@ -84,7 +84,7 @@ class HospitalRegistrationTableViewController: UITableViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
             switch action.style{
                 case .default:
-                print("default")
+                self.navigationController?.popViewController(animated: true)
                 
                 case .cancel:
                 print("cancel")
